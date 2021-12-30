@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+#sub_slider{width:100%;max-width:1920px;position:relative;height:400px;}
+#sub_slider img{width:1920px;position:absolute;margin-left:-960px;left:50%;}
+.sub_name{width:1080px;max-width:1080px;margin:0 auto;margin-top:100px;}
+
+.sub_name{width:100%;margin-top:50px;}
+    .sub_name img{width:100%;}
+#sub_tab{width:1080px;max-width:1080px;margin:0 auto;margin-top:20px;}
+#sub_tab .tab_menu{width:100%;}
+#sub_tab .tab_menu li{width:15.8%;float:left;height:50px;text-align:center;border:1px solid #c8b29a;line-height:50px;margin:5px;}
+#sub_tab .tab_menu li a{color:#fff;}
+#sub_tab .tab_menu li.on{background-color:#c8b29a;}
+#sub_tab .tab_menu li.on a{font-size:18px;}
+
+#sub_tab.sub_tab .tab_menu li{width:32%;float:center;height:50px;text-align:center;border:1px solid #c8b29a;line-height:50px;margin:5px;margin-left:120px}
+   
+ #sub_tab{width:90%;}
+    #sub_tab .tab_menu li{width:45%;}
+    #sub_tab.sub_tab{width:100%}
+    #sub_tab.sub_tab .tab_menu li{width:30%;}
+    #sub_tab.sub_tab .tab_menu li.on a{font-size:1em;}
+ .sub_font{background-color: #000000;font-size:20px;color:#FFFFFF;text-align:left;float:center;width:100%;margin-left:410px}
+ .sub_font_1{background-color: #000000;font-size:17px;color:#FFFFFF;text-align:left;float:center;width:100%;margin-left:410px}

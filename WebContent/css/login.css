@@ -1,0 +1,33 @@
+@charset "EUC-KR";
+
+.loginBoxWrap {position:relative; max-width:420px; margin:0 auto; font-family:"AppleSDGothicNeo", "Apple SD Gothic Neo","Apple SD »êµ¹°íµñ Neo",sans-serif;}
+
+.loginHeaderV3 {padding:76px 0 60px 0; height:20px; text-align:center;}
+
+.loginBoxV3 .id {padding:0 10px 10px 10px; display:block;}
+.loginBoxV3 .pass  {padding:0 10px 20px 10px; display:block;}
+.loginBoxV3 .submit {padding:0 10px 20px 10px; display:block;}
+.loginBoxV3 .pass_msg {margin-top:-10px; display:block; line-height:1px;}
+.loginBoxV3 .pass_msg font {display:block; line-height:14px; padding:0 10px 10px 10px;}
+.loginBoxV3 label.checkbox {padding-left:10px;}
+
+.loginBoxV3 .loginMenu .join{display:inline-block;height:14px; line-height:14px; margin:4px 0 3px 0;}
+.loginBoxV3 .loginMenu .join {font-size:14px; color:#aaa;}
+
+.loginHeaderV3 p {font-size:50px}
+
+label.checkbox {display:inline-block; font-size:14px; line-height:20px; cursor:pointer; margin-right:100px;}
+label.checkbox.fir {margin-right:0;}
+
+.submitWBOX input {background:#000; -webkit-appearance:none; -webkit-border-radius:0; height:60px; line-height:64px; text-align:center; width:100%; color:#fff; font-size:18px; font-weight:bold; border:0; margin:0; padding:0;}
+.submit_ing span {display:block; background:#aaa; ;-webkit-appearance:none; -webkit-border-radius:0; height:60px; line-height:64px; text-align:center; width:100%; color:#fff; font-size:18px; font-weight:bold; border:0; margin:0; padding:0;}
+
+
+.inputV3 {border:1px solid #ccc; padding:15px 10px 14px 10px; height:50px; margin:0; width:100%; font-size:14px; line-height:21px; box-sizing:border-box; -webkit-appearance:none; -webkit-border-radius:0; color:#000;}
+.inputV3[type="date"] {background:#fff;}
+.inputV3.w3 {width:30%}
+input.inputV3::placeholder {color:#aaa}
+.inputV3:focus {border:1px solid #0078ff;}
+.inputV3[type="text"]:disabled {background:#f1f1f1; color:#000; opacity:1; -webkit-text-fill-color:inherit}
+.selectV3 {border:1px solid #ddd; padding:15px 10px 14px 10px; height:50px; margin:0; box-sizing:border-box;}
+.inputV3.valid {border:1px solid #f00;}

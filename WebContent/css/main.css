@@ -1,0 +1,36 @@
+@charset "EUC-KR";
+ <style>
+  header #gnb_wrap{width:100%;margin:0 auto;}
+#gnb_wrap .logo_wrap{width:100%;height:150px;text-align:center;margin:0 auto;border-bottom:1px solid #212121;}
+#gnb_wrap .logo_wrap h1{width:100px;height:150px;margin:0 auto;line-height:150px;}
+#gnb_wrap .logo_wrap h1 img{width:100px;height:100px;vertical-align: middle;}
+
+
+#gnb_wrap .gnb_wrap{max-width:1080px;margin:0 auto;}
+#gnb_wrap .gnb_wrap .gnb_menu{text-align:center;height:50px;}
+#gnb_wrap .gnb_wrap .gnb_menu > li{float:left;position:relative;width:20%;}
+#gnb_wrap .gnb_wrap .gnb_menu > li .gnb_menu_list{color:#c8b29a;display:block;font-size:14px;margin-top:14px;}
+
+/*sns*/
+#sns_wrap{width:100%;margin-bottom:0px;margin-top:0px;background:#000000}
+#sns_wrap:after{content:"";display:block;clear:both;}
+#sns_wrap .sns_wrap{width:700px;margin:0 auto;text-align:center;}
+#sns_wrap .sns_wrap li{width:100px;height:100px;float:left;background:#000000;margin-right:30px;}
+#sns_wrap .sns_wrap li:last-child{margin-right:0;}
+
+#sns_wrap .sns_wrap li:hover{
+    margin-top:-10px;
+    transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+}
+
+
+/*로그인 관련*/
+.top_glb{ height: 35px; width: 100px; position: absolute; right: 0; top: 0; margin-top: 25px; z-index: 100; text-align: 10px right; color:#FFFFFF}
+/*youtube*/
+#youtube{width:100%;height:600px;margin:0 auto;background:#fff;background:url('../images/grid.png') repeat center top;margin-bottom:150px;}
+#youtube .movie_wrap{width:1080px;max-width:1080px;margin:0 auto;height:650px;margin-top:80px}
+ 
+  </style>
